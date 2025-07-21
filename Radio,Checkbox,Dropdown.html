@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Level 3</title>
+</head>
+<body>
+    <form action="/server">
+        <input type="checkbox" id="age" name="age" checked />
+        <label for="age"> I am 18+ </label>
+        <br/>
+        <div> 
+            Choose your subjects:
+            
+            <input type="checkbox" id="math"  name="subjects" value="maths" />
+            <label for="maths">maths</label>
+             <input type="checkbox" id="chemistry" name="subjects" value="chemistry" />
+            <label for="chemistry">chemistry</label>
+             <input type="checkbox" id="physics" name="subjects" value="physics" />
+            <label for="physics">physics</label>
+        </div>
+        <br/>
+        <div>
+          <input type="radio" name="fruit" id="apple" value="apple"/>
+          <label for="apple">apple</label>
+          <input type="radio" name="fruit" id="mango" value="mango"/>
+          <label for="mango">mango</label>
+          <input type="radio" name="fruit" id="banana" value="banana"/>
+          <label for="banana">banana</label>
+        </div>
+        <div>
+           Choose your profession
+           <select name="profession" id="profession">
+             <option>Select your option</option>
+             <option value="student">Student</option>
+             <option value="student">Developer</option>
+             </select>
+        </div>
+      <button>submit</button>
+    </form>
+  </body>
+</html>
