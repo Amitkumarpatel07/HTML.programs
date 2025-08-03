@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap CSS</title>
+  <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Hellow World</h2>
+  <nav class="navbar bg-primary  navbar-expand-lg"
+  data-bs-theme="dark"
+  >
+    <div class="container-fluid">
+    <a href="#" class="navbar-brand">Brand Name</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" href="#">Contact</a>
+      <a class="nav-link" href="#">About Us</a>
+    </div>
+    </div>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="search"/>
+      <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+    </div>
+    </nav>
+  </nav>
+     <div class="container">
+      <h2>Bootstrap Demo</h2>
+      <div class="card" style="width:18rem">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNJErVCHdsLrjBA9FMPGaFrO3m54wKkWordg&s"
+        class="card-image-top"/>
+        <div class="card-body">
+          <h5 class="card-title">Photography</h5>
+          <p class="class-text">It is an art to capture important things.</p>
+          <a href="#" class="btn btn-primary">know more</a>
+        </div>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia incidunt fugiat, quasi blanditiis voluptatem debitis sed. Fugiat numquam, id voluptatibus totam quis rerum, omnis nobis dignissimos architecto quidem eius quo!
+        Iusto magni nam eos natus. Facere, debitis modi saepe iure veniam dolorem deserunt, vel harum sed libero at illo nostrum asperiores soluta tenetur quasi itaque quisquam error cum aspernatur voluptates!
+        Minus, aspernatur sint dignissimos aliquid consequatur ratione corrupti labore iste, natus amet et doloribus harum vitae laudantium consequuntur laboriosam? Suscipit quisquam voluptatum animi consequuntur ratione sit sint nemo ea nostrum.
+        Aliquid nesciunt consectetur unde tempora consequuntur omnis tenetur quo, cupiditate at id quibusdam hic perferendis, harum molestiae vitae, ipsum dolore modi atque nulla maiores minus nisi voluptate laudantium. Non, ratione.
+        Excepturi doloribus necessitatibus dolores maxime aspernatur. Quod repellendus nulla possimus fugiat, molestiae dolores accusamus earum sit debitis illum perferendis quasi minima nesciunt animi quam officiis laudantium magni quos quaerat voluptatem.
+      </p>
+      <div class="btn-group">
+        <button class="btn btn-outline-primary">one</button>
+        <button class="btn btn-outline-success">two</button>
+        <button class="btn btn-outline-warning">three</button>
+      </div>
+        <button class="btn btn-success">one</button>
+        <button class="btn btn-success">two</button>
+        <button class="btn btn-success">three</button>
+     </div>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
